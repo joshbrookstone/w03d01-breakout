@@ -18,3 +18,15 @@ Expected return value:
 
 Note: You don't need to worry about new lines or tabs. The return string can be all on one line.
 */
+
+const stringify = function(obj) {
+  
+  return `<div>
+  <h1> ${obj.firstName} ${obj.lastName}</h1>
+  <h2>Username: ${obj.username}</h2>
+  <p>You have been a member since ${obj.dateJoined} </p>
+  </div>`;
+
+};
+
+module.exports = {stringify};

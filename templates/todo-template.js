@@ -23,3 +23,15 @@ Expected return value:
 
 Note: You don't need to worry about new lines or tabs. The return string can be all on one line.
 */
+const todoTemplate = function(obj) {
+  return `<div> 
+  <h1>Todos for: ${obj.username}</h1>
+  <ul>
+    <li> ${obj.todos[0].task} </li> 
+    <li> ${obj.todos[1].task} </li>
+    <li>${obj.todos[2].task}</li>
+  </ul>
+  </div>`;
+};
+
+module.exports = todoTemplate;

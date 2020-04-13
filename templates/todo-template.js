@@ -20,4 +20,6 @@ Expected return value:
     <li>take out the garbage (3)</li>
   </ul>
 </div>
+
+Note: You don't need to worry about new lines or tabs. The return string can be all on one line.
 */

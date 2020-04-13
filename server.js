@@ -17,16 +17,16 @@ const userObject = {
 const userRender = userTemplate(userObject);
 console.log(userRender);
 
-const todoTemplate = require('./templates/todo-template');
+// const todoTemplate = require('./templates/todo-template');
 
-const todoObject = {
-  username: 'jsmith',
-  todos: [
-    { id: 1, task: 'go shopping' },
-    { id: 2, task: 'walk the dog' },
-    { id: 3, task: 'take out the garbage' }
-  ]
-};
+// const todoObject = {
+//   username: 'jsmith',
+//   todos: [
+//     { id: 1, task: 'go shopping' },
+//     { id: 2, task: 'walk the dog' },
+//     { id: 3, task: 'take out the garbage' }
+//   ]
+// };
 
-const todoRender = todoTemplate(todoObject);
-console.log(todoRender);
+// const todoRender = todoTemplate(todoObject);
+// console.log(todoRender);
